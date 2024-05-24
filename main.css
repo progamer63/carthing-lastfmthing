@@ -1,0 +1,58 @@
+html {
+    font-family:Inter;
+    font-weight:625;
+    font-size:24px;
+    text-align:left;
+}
+
+body {
+    background-color:#505050;
+    color:white;
+}
+
+#all {
+    display:flex;
+    margin:auto;
+    margin-top:15%;
+    height:400px;
+    width:800px;
+    border:white;
+    border-style:solid;
+    border-radius:15px;
+    padding:15px;
+    background-image:linear-gradient(#404040,#303030);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:100%;
+}
+
+
+#art {
+    width:300px;
+}
+
+#realArt {
+    padding:25px;
+    width:256px;
+}
+
+#songInfo {
+    padding-top:75px;
+    padding-left:10px;
+}
+
+#song {
+    font-size:48px;
+}
+
+#artist {
+    font-weight:400;
+}
+/*
+#bottom {
+    width:100%;
+    height:150px;
+    border-top:white;
+    border-style:solid;
+}
+*/
