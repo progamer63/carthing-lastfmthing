@@ -1,5 +1,5 @@
 # carthing-lastfmthing
-![Example Image](/files/example.png)
+![Example Image](/files/example2.png)
 # about:
 this project is an idea to have a decent recreation of the spotify car thing UI as a single page web page that can then be used via something like [superbird-debian-kiosk](https://github.com/bishopdynamics/superbird-debian-kiosk)  
 though, that does require additional hardware, so hopefully eventuallyTM people figure out how to run chromium on-device by replacing the stock UI itself  
