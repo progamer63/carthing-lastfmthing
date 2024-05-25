@@ -4,6 +4,7 @@ html {
     font-size:24px;
     text-align:left;
     --image-color:#000000;
+    --image-color-darker:#000000;
     --title-length:0;
 }
 
@@ -15,7 +16,7 @@ body {
 #all {
     display:grid;
     grid-template-rows:1fr 1fr;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:300px 1fr;
     margin:auto;
     margin-top:15%;
     height:400px;
@@ -46,9 +47,7 @@ body {
 #songInfo {
     grid-row:1;
     grid-column:2;
-    margin-left:-115px;
     padding-top:75px;
-    padding-left:15px;
     height:205px;
     white-space:normal;
     overflow:wrap;
@@ -84,8 +83,9 @@ body {
     grid-column:1/3;
     height:98px;
     border-radius:0 0 15px 15px;
-    border-top:white;
-    border-style:solid;
+    background-color:var(--image-color-darker);
+    border-top-color:rgba(0,0,0,0.33);
+    border-top-style:solid;
 }
 
 #bottomItemsWrapper {

@@ -18,7 +18,8 @@ function fetchinfo() {
         document.documentElement.style.setProperty("--title-length", song.innerHTML.length);
         artist.innerHTML = json['track']['artist']['#text'];
         document.getElementById("realArt").src = json['track']['image'][3]['#text'];
-        let imurlwork = json['track']['image'][3]['#text'];
+        /* remnants of getting the background to be an image, insane i want to do that someday */
+        /*let imurlwork = json['track']['image'][3]['#text'];*/
         /*document.getElementById("all").style.backgroundImage="url("+imurlwork+")";*/
     });
 }
