@@ -10,5 +10,5 @@ modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
 i don't mind if you open issues or pull requests to improve something
 # work list:
-- background to be not a gradient (really want it to be the background image super blurred to have a changing color background like actual car thing)
-- add controls that work? maybe?
+- **PRIORITY** background to be not a gradient (really want it to be the background image super blurred to have a changing color background like actual car thing)
+- add controls that work? maybe? i dont think its possible
