@@ -6,7 +6,7 @@ though, that does require additional hardware, so hopefully eventuallyTM people 
 since i mainly mess around in python + html/css, this probably won't be the best thing ever
 # basic setup:
 requries you to have a lastfm account & link it to spotify  
-modify "fetch.js" line 1 to be your lastfm username
+modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
 i don't mind if you open issues or pull requests to improve something
 # work list:
