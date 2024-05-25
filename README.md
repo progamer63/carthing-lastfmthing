@@ -10,5 +10,5 @@ modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
 i don't mind if you open issues or pull requests to improve something
 # work list:
-- **PRIORITY** background to be not a gradient (really want it to be the background image super blurred to have a changing color background like actual car thing)
+- **PRIORITY** bottom bar that at least has the buttons, even if non-functional
 - add controls that work? maybe? i dont think its possible
