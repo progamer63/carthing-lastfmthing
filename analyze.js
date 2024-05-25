@@ -13,4 +13,4 @@ colorjs.average(img, {format:"hex"}).then(color => {
 });
 }
 analyze();
-setInterval(analyze, 100);
+setInterval(analyze, 250);
