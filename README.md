@@ -10,7 +10,7 @@ modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
 i don't mind if you open issues or pull requests to improve something  
 🟩 = done  
-🟨 = works
+🟨 = works  
 🟧 = in progress  
 🟥 = not trying  
 # work list:
