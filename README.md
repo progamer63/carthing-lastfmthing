@@ -9,8 +9,13 @@ requries you to have a lastfm account & link it to spotify
 modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
 i don't mind if you open issues or pull requests to improve something
+🟩 = done
+🟨 = functional
+🟧 = in progress
+🟥 = not trying
 # work list:
-- **PRIORITY** bottom bar that at least has the buttons, even if non-functional
+- **PRIORITY** bottom bar that at least has the buttons, even if non-functional [🟨]
+- **PRIORITY** find actual icons for the buttons [🟧]
 - add controls that work? maybe? i dont think its possible
 - keep song info cached so when playing is paused, the same song keeps showing. right now it likes to show the first song played in the session.
-- fine tune the font size scaling of song title. need to test many many more cases.
+- fine tune the font size scaling of song title. need to test many many more cases. [🟨]
