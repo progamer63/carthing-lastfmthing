@@ -2,7 +2,7 @@ function analyze() {
 let img = document.getElementById('realArt');
 colorjs.average(img, {format:"hex"}).then(color => {  
     var ogcolor = tinycolor(color);
-    var color = ogcolor.darken(5).toString();
+    var color = ogcolor.saturate(5).darken(15).toString();
     if (color == "#ffffff") {
         color = "#EDEDED";
     }

@@ -12,3 +12,5 @@ i don't mind if you open issues or pull requests to improve something
 # work list:
 - **PRIORITY** bottom bar that at least has the buttons, even if non-functional
 - add controls that work? maybe? i dont think its possible
+- keep song info cached so when playing is paused, the same song keeps showing. right now it likes to show the first song played in the session.
+- fine tune the font size scaling of song title. need to test many many more cases.

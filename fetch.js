@@ -15,6 +15,7 @@ function fetchinfo() {
             song.innerHTML = song.innerHTML.substring(0, maxlen);
             song.innerHTML = song.innerHTML+'...';
         }
+        document.documentElement.style.setProperty("--title-length", song.innerHTML.length);
         artist.innerHTML = json['track']['artist']['#text'];
         document.getElementById("realArt").src = json['track']['image'][3]['#text'];
         let imurlwork = json['track']['image'][3]['#text'];

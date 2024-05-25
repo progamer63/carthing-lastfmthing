@@ -4,6 +4,7 @@ html {
     font-size:24px;
     text-align:left;
     --image-color:#000000;
+    --title-length:0;
 }
 
 body {
@@ -55,7 +56,9 @@ body {
 
 #song {
     margin-top:-15px;
-    font-size:48px;
+    padding-right:15px;
+    /*font-size:48px;*/
+    font-size:clamp(36px, calc(96px * (1/var(--title-length))*8), 72px);
 }
 
 #break {
