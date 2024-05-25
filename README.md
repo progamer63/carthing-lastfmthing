@@ -8,11 +8,11 @@ since i mainly mess around in python + html/css, this probably won't be the best
 requries you to have a lastfm account & link it to spotify  
 modify fetch.js "let user = '\<user\>';" to be your username
 # misc:
-i don't mind if you open issues or pull requests to improve something
-🟩 = done
-🟨 = functional
-🟧 = in progress
-🟥 = not trying
+i don't mind if you open issues or pull requests to improve something  
+🟩 = done  
+🟨 = functional  
+🟧 = in progress  
+🟥 = not trying  
 # work list:
 - **PRIORITY** bottom bar that at least has the buttons, even if non-functional [🟨]
 - **PRIORITY** find actual icons for the buttons [🟧]
