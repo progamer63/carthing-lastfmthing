@@ -19,3 +19,4 @@ i don't mind if you open issues or pull requests to improve something
 - add controls that work? maybe? i dont think its possible
 - keep song info cached so when playing is paused, the same song keeps showing. right now it likes to show the first song played in the session.
 - fine tune the font size scaling of song title. need to test many many more cases. [🟨]
+- add prompt box on page load that asks for your last.fm username so users dont have to edit code [🟧]

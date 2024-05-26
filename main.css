@@ -30,6 +30,15 @@ body {
     background-position:center;
     background-size:100%;
 }
+
+#input input {
+    opacity:0;
+}
+
+#input input:focus {
+    opacity:1;
+}
+
 #art {
     grid-row:1;
     grid-column:1;
