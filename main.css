@@ -104,6 +104,10 @@ body {
 }
 
 .bottomItem {
-    text-align:center;
-    margin-top:20%;
+    margin:auto;
+    margin-top:15%;
+}
+
+.mediaButton {
+    height:42px;
 }
